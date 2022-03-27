@@ -1,0 +1,8 @@
+# flip a coin 
+
+flip=$(( RANDOM%2))
+if((flip=1)
+then 
+echo "head" $flip
+else 
+echo "tail" $ flip
